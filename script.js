@@ -137,3 +137,4 @@ function showFinalScore(){
 
 
 startBtn.addEventListener("click", start);
+
