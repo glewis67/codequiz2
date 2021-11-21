@@ -8,7 +8,7 @@
 
 ## Desktop
 
-![Alt test](/images/quiz.png)
+![Alt test](/quiz.png)
 
 ## Deployed Link
 
