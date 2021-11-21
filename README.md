@@ -1,4 +1,4 @@
-# codequiz2
+# Codequiz2
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
