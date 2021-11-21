@@ -6,9 +6,11 @@
 * Codequiz2 is a app allows the user to test their computer knowledge. 
 * It is the ideal feature to keep the user up to update with the latest knowledge in the technology world.
 
-## Deployed Link
+## Desktop
 
-[# Codequiz2]
+![Alt test](./assets/images/quiz.png)
+
+## Deployed Link
 
 ![Alt test](https://glewis67.github.io/codequiz2/)
 
