@@ -10,9 +10,9 @@
 
 ![Alt test](/quiz.png)
 
-## Deployed Link
+## Deployment url Link
 
-![Alt test](https://glewis67.github.io/codequiz2/)
+https://glewis67.github.io/codequiz2/
 
 ## Table of Contents
 
