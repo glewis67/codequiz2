@@ -8,11 +8,11 @@
 
 ## Desktop
 
-![Alt test](/quiz.png)
+![Alt test](/images/quiz.png)
 
 ## Deployment url Link
 
-https://glewis67.github.io/codequiz2/
+ https://glewis67.github.io/codequiz2/
 
 ## Table of Contents
 
