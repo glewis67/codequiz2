@@ -1,15 +1,25 @@
-h3{
-    margin-right: 50px;
-
+body{
+	background-color: rgb(84, 187, 131);
 }
-.ladder-search{
-    margin-left: 100px;
+.main{
+    margin-left: 45%;
 }
 
 h1{
-    margin-left: 80px;
-	color: blue;
+    text-align: center;
+	color: blueviolet;
 }
+
+li{
+	font-size: x-large;
+}
+
+button{
+	font-size: large;
+	border-radius: 25px;
+}
+
+
 #container {
 	width: 25%;
 	height: auto;
