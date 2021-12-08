@@ -17,6 +17,7 @@ var showResults = document.getElementById("showResult");
 var submitButton = document.getElementById("submitButton");
 var resultsContainer = document.getElementById("resultContainer");
 var finalScore = document.getElementById("finalScore");
+var submitScore = document.getElementById("submitScore")
 
 //Questions for quiz
 
@@ -39,7 +40,7 @@ var questions = [
   },
 
   {
-    Q: "Which direction is the flex-direction set for a row?",
+    Q: "What prints and displays the user message in javascript?",
     A: ["Y-axix", "X-axis", "Vertical", "Horizatal"],
     C: "X-axis",
   },
@@ -48,6 +49,27 @@ var questions = [
     A: ["Alert", "Print", "Display", "console.log"],
     C: "Console.log",
   },
+  {
+    Q: "What is the command to create a feature branch from the command line?",
+    A: ["Git check -b", "Get checkout -b", "Git checkout -b", "Git checkout b"],
+    C: "Git checkout -b",
+  },
+  {
+    Q: "What do you add after the function name?",
+    A: ["{]", "[]", "{}", "[}"],
+    C: "{}",
+  },
+  {
+    Q: "What function displays a message?",
+    A: ["Alert", "Print", "Window.alert", "Alert()"],
+    C: "Alert()",
+  },
+  {
+    Q: "what is the command to copy a repository from the command line?",
+    A: ["Touch", "Get clone", "Git display", "Git clone"],
+    C: "Git clone",
+  },
+
 ];
 
 // Initiate the quiz timer.
@@ -101,7 +123,7 @@ function generateQuiz() {
 function checkAnswer() {
   if (this.value !== questions[questionIndex].C) {
     console.log("this is wrong");
-     time -= 10;
+     time -= 5;
      if (time < 0) {
        time = 0;
      }
@@ -123,6 +145,9 @@ function checkAnswer() {
 
 }
 
+
+
+
   
 function showFinalScore(){
   quizScreen.setAttribute("class", "hide");
@@ -132,9 +157,25 @@ function showFinalScore(){
 }
   
 
+function scoreSubmition() {
+  var initials = document.getElementById("initials").value.trim()
+
+  var highScores = JSON.parse(window.localStorage.getItem("highScores")) || [];
+
+  var newScore = {
+    score: score,
+    initials: initials
+  }
+
+  highScores.push(newScore);
+
+  window.localStorage.setItem("highScores", JSON.stringify(highScores));
+
+  window.location.href = "scoreBoard.html"
+
+}
 
 
-
-
+submitScore.addEventListener("click", scoreSubmition)
 startBtn.addEventListener("click", start);
 

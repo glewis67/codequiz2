@@ -12,7 +12,7 @@
 
 ## Deployment url Link
 
- https://glewis67.github.io/codequiz2/
+ https://glewis67.github.io/codequiz2/index.html
 
 ## Table of Contents
 
